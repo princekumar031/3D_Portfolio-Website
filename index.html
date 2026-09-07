@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | 3D Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">3D-PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="particles" id="particles"></div>
+            <div class="floating-shapes"> 
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Creative</span>
+                    <span class="title-line">Developer</span>
+                </h1>
+                <p class="hero-subtitle">Crafting immersive digital experiences with passion and precision</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">"Finding magic in little moments."</p>
+            </div>
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="D:\items\userrobot.jpg" alt="Profile" class="profile-img">
+                        </div>
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-text">
+                        <h3>Hello, I'm Prince</h3>
+                        <p>I am a BCA student with a strong foundation in programming and
+                            web development. I have hands-on
+                            experience with C, Java, and Data Structures & Algorithms DSA,
+                            along with front-end technologies like
+                            HTML CSS JavaScript bootstrap SQL and extra certificate BHM(
+                            Basic Health Management).I am passionate about building ficient
+                            and user-friendly applications, and continuously
+                            strive to enhance my technical skills</p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-number">4+</span>
+                                <span class="highlight-text">Experience</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-number">10+</span>
+                                <span class="highlight-text">Projects Completed</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-number">2+</span>
+                                <span class="highlight-text">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-front">
+                        <div class="skill-icon">&#60;/&#62;</div>
+                        <h3>HTML5</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>HTML5</h3>
+                        <p>Semantic markup, accessibility, SEO optimization</p>
+                        <span class="experience-badge">5 Years</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-front">
+                        <div class="skill-icon">#</div>
+                        <h3>CSS3</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>CSS3</h3>
+                        <p>Animations, flexbox, grid, preprocessors</p>
+                        <span class="experience-badge">5 Years</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-front">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>JavaScript</h3>
+                        <p>ES6+, DOM manipulation, APIs, frameworks</p>
+                        <span class="experience-badge">4 Years</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="react">
+                    <div class="skill-front">
+                        <div class="skill-icon">⚛</div>
+                        <h3>React</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>SQL</h3>
+                        <p></p>
+                        <span class="experience-badge">3 Years</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="node">
+                    <div class="skill-front">
+                        <div class="skill-icon">&#9733;</div>
+                        <h3>JAVA</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>JAVA</h3>
+                        <p></p>
+                        <span class="experience-badge">3 Years</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-front">
+                        <div class="skill-icon">PY</div>
+                        <h3>JAVA+DSA</h3>
+                        <div class="progress-ring">
+                            <svg>
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress"></circle>
+                            </svg>
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <h3>JAVA+DSA</h3>
+                        <!-- <p>Django, data analysis, automation</p> -->
+                        <span class="experience-badge">2 Years</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Featured work</p>
+            </div>
+            <div class="projects-carousel">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="D:\items\E-commarece.jpg" alt="E-Commerce Platform"
+                            onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'project-placeholder\'><span>E-Commerce</span></div>'">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack shopping platform with payment integration</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-btn">Live Demo</a>
+                            <a href="#" class="project-btn github">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="D:\items\analatics.jpg" alt="Analytics Dashboard"
+                            onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'project-placeholder\'><span>Dashboard</span></div>'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization and analytics</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-btn">Live Demo</a>
+                            <a href="#" class="project-btn github">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="D:\items\techn.jpg" alt="3D Portfolio"
+                            onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'project-placeholder\'><span>Portfolio</span></div>'">
+                    </div>
+                    <div class="project-info">
+                        <h3>3D Portfolio</h3>
+                        <p>Interactive 3D portfolio with WebGL effects</p>
+                        <div class="project-tags">
+                            <span>Three.js</span>
+                            <span>GSAP</span>
+                            <span>WebGL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-btn">Live Demo</a>
+                            <a href="#" class="project-btn github">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="D:/items/goran-ivos-TorAcb4AQRc-unsplash.jpg" alt="Chat Application"
+                            onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'project-placeholder\'><span>Chat App</span></div>'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Chat Application</h3>
+                        <p>Real-time messaging with video calls</p>
+                        <div class="project-tags">
+                            <span>Socket.io</span>
+                            <span>React</span>
+                            <span>WebRTC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-btn">Live Demo</a>
+                            <a href="#" class="project-btn github">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023-2026</div>
+                        <h3>Senior Frontend Developer</h3>
+                        <h4>Tech Company Inc.</h4>
+                        <p>Leading frontend development, mentoring team members, and architecting scalable solutions.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <h3>Full Stack Developer</h3>
+                        <h4>Startup Hub</h4>
+                        <p>Built end-to-end web applications, implemented CI/CD pipelines, and improved performance.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022-2021</div>
+                        <h3>Junior Web Developer</h3>
+                        <h4>Digital Agency</h4>
+                        <p>Developed responsive websites, collaborated with designers, and maintained client projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <h3>Ready to start a project?</h3>
+                        <p>Feel free to reach out. I'm always open to discussing new opportunities and interesting
+                            projects.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">&#9993;</span>
+                            <span>rahul123@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">&#128205;</span>
+                            <span>Patna, Bihar</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">&#9734;</a>
+                        <a href="#" class="social-link">&#9737;</a>
+                        <a href="#" class="social-link">&#9742;</a>
+                        <a href="#" class="social-link">&#9990;</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="input-underline"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="input-underline"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="input-underline"></div>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Thank you for visit my Portfolio website.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
